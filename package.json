@@ -1,0 +1,37 @@
+{
+  "name": "express-sql-todo",
+  "version": "1.0.0",
+  "description": "todo list in express with GTD-style context",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamniama/express-sql-todo.git"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "todo",
+    "javascript",
+    "learning"
+  ],
+  "author": "JCNorth/IAMNIAMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamniama/express-sql-todo/issues"
+  },
+  "homepage": "https://github.com/iamniama/express-sql-todo#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  }
+}
